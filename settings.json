@@ -1,0 +1,137 @@
+{
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.inlineSuggest.enabled": true,
+    "css.lint.unknownAtRules": "ignore",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "yaml": true,
+        "python": true,
+        "json": false
+    },
+    "scss.lint.unknownAtRules": "ignore",
+    "workbench.panel.defaultLocation": "right",
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "workbench.colorCustomizations": {
+        // "editorCursor.foreground": "#df5656",
+    },
+    "python.analysis.downloadStubs": true,
+    "remote.SSH.remotePlatform": {
+        "54.162.150.189": "linux",
+        "192.168.1.108": "linux",
+        "192.168.1.110": "linux",
+        "192.168.1.114": "linux",
+        "kubernetes": "linux"
+    },
+    "liveServer.settings.mount": [],
+    "liveServer.settings.root": "",
+    "yaml.schemas": {
+        "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
+    },
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence",
+        "!ENV scalar",
+        "!ENV sequence",
+        "!relative scalar",
+        "tag:yaml.org,2002:python/name:material.extensions.emoji.to_svg",
+        "tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji",
+        "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
+    ],
+    "aws.suppressPrompts": {
+        "codeWhispererConnectionExpired": true
+    },
+    "aws.telemetry": false,
+    "vs-kubernetes": {
+        "vs-kubernetes.knownKubeconfigs": [
+            "/home/filipe/.kube/config"
+        ],
+        "vs-kubernetes.kubeconfig": "/home/filipe/.kube/config",
+        "vscode-kubernetes.minikube-path-linux": "/home/filipe/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+    },
+    "pylint.args": [
+        "--disable=C0114",
+        "--disable=C0116",
+        "--disable=C0115"
+    ],
+    "workbench.editor.empty.hint": "hidden",
+    "docker.containers.label": "ContainerName",
+    "docker.containers.description": [
+        "Image",
+        "Status"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.unicodeHighlight.allowedCharacters": {
+        "×": true
+    },
+    "gitlens.ai.experimental.generateCommitMessage.enabled": false,
+    "remote.autoForwardPortsSource": "hybrid",
+    "redhat.telemetry.enabled": false,
+    "html.format.wrapAttributes": "force-aligned",
+    "scm.showIncomingChanges" : "never",
+    "scm.showOutgoingChanges": "never",
+    "jupyter.askForKernelRestart": false,
+    "terminal.integrated.scrollback": 5000,
+    "debug.onTaskErrors": "debugAnyway",
+    "gitlens.views.formats.commits.description": "${author, }${date}",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "yaml.validate": false,
+    "explorer.confirmDragAndDrop": false,
+    "go.toolsManagement.autoUpdate": true,
+    "python.languageServer": "Pylance",
+    "scm.showHistoryGraph": false,
+    "[sql]": {
+        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    },
+    "diffEditor.renderSideBySide": true,
+    "workbench.startupEditor": "none",
+}
